@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- displays site properly based on user's device -->
-  <link href="style.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/terrarex.png" />
 
   <title>NFT preview card component</title>
@@ -17,7 +17,10 @@
   <main>
     <div id="container">
       <div class="card">
+      <div class="image-container">
         <img class="cube" src="images/image-equilibrium.jpg" alt="a glass cube" />
+        <div class="after"><img src="images/icon-view.svg" alt="eye"></div>
+      </div>
         <div class="name">Equilibrium #3429</div>
         <p class="intro">Our Equilibrium collection promotes balance and calm.</p>
 
@@ -25,16 +28,11 @@
 
         <span class="time"><img src="images/icon-clock.svg" alt="clock"> 3 days left</span>
       <div class="creator">
+        <img class="creator-image" src="images/image-avatar.png" alt="avatar of creator" />    
+        <p class="creator-name">Creation of <a href="#" class="white-text" "><strong>Jules Wyvern</strong> </a></p>
+      </div>
+      </div>
     
-        <p><img class="creator-image" src="images/image-avatar.png" alt="avatar of creator" />Creation of <strong>Jules Wyvern</strong></p>
-      </div>
-      </div>
-      <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Akhil</a>.
-    </div> -->
     </div>
   </main>
 </body>
